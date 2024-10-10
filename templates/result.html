@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+  <body>
+
+    You are {{ player_race }}, from the province of {{ player_province }}. Your class is {{ player_class }} and you were born under the sign of the {{ birth_sign }}.<br>
+    <br><br>
+    Race Description: {{ race_description[player_race] }}
+    <br><br>
+    Class Description: {{ class_description[player_class] }}
+    <br><br>
+    Birthsign Description: {{ birthsign_description[birth_sign] }}
+    <br><br>
+    Thanks for joining the journey—check out the code on GitHub for more! 
+    <a href="https://github.com/hungkach/morrowind-quiz-flask">View on GitHub</a>
+
+  </body>
+</html>
